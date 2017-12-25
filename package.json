@@ -2,9 +2,10 @@
   "name": "matman-tool-e2e",
   "version": "0.1.0",
   "description": "tool for matman and e2e test",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel src -d lib -w",
+    "prepublish": "babel  src -d lib"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/helinjiang/matman-tool-e2e/issues"
   },
-  "homepage": "https://github.com/helinjiang/matman-tool-e2e#readme"
+  "homepage": "https://github.com/helinjiang/matman-tool-e2e#readme",
+  "dependencies": {
+    "url-handle": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
