@@ -22,9 +22,6 @@
     "url": "https://github.com/helinjiang/matman-tool-e2e/issues"
   },
   "homepage": "https://github.com/helinjiang/matman-tool-e2e#readme",
-  "dependencies": {
-    "url-handle": "^0.1.4"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015-loose": "^8.0.0",

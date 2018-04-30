@@ -1,5 +1,4 @@
 import MatmanItem from './matman-item';
-import { param } from 'url-handle';
 
 export default class MatmanQuery {
     constructor() {
@@ -12,8 +11,6 @@ export default class MatmanQuery {
     }
 
     getQueryString() {
-        return param({
-            _matman: this.list
-        });
+        return '_matman=' + JSON.stringify(this.list);
     };
 }
