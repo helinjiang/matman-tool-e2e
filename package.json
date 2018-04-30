@@ -1,6 +1,6 @@
 {
   "name": "matman-tool-e2e",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tool for matman and e2e test",
   "main": "lib/index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/helinjiang/matman-tool-e2e#readme",
   "dependencies": {
-    "url-handle": "^0.1.1"
+    "url-handle": "^0.1.4"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-preset-es2015-loose": "^8.0.0",
     "babel-preset-stage-0": "^6.24.1"
   }
